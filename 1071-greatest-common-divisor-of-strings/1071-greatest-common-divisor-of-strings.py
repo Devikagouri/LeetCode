@@ -23,8 +23,6 @@ class Solution(object):
             j = 1
             st = low[0:(l-i)]
             s = ''
-            print(st)
-            print(i,j)
             while(len(s)<=h and st!=''):                
                 s = st*j
                 print(st)
